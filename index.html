@@ -4,18 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ContactUs</title>
+    <!-- Favicon -->
     <link rel="icon" href="icon/titleIcon.webp" type="image/x-icon">
+    <!-- // Bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Internal Css for hover effect on Background color -->
+    <style>
+        .box{
+            transition: 0.5s;
+        }
+        .box:hover{
+            background-color: #E9EDEC;
+        }
+    </style>
 </head>
-<body>
-    <div class="container text-center mt-5">
+<!-- Main body -->
+<body class="container py-2">
+    <!-- Introduction section -->
+    <div class="mt-5  text-center">
         <p class="fs-6 text-uppercase fw-medium"><span style="font-size: smaller;">Caption</span></p>
         <h1>Contact Us</h1>
         <p class="mt-4 px-5">Our solutions help over 5 million+ small business. We are privileged to get acknowledgment and featured in top publications in the industry. Our responsive web designing team will create a layout for all screen sizes to ensure that your website visitors are able to view the information properly, which could help increase your conversions.</p>
-        <button type="button" class="btn btn-dark my-5 fw-medium">Live Chat</button>
+        <button type="button" class="btn btn-dark my-3 fw-medium">Live Chat</button>
     </div>
-    <div class="container-sm row mt-5">
-        <div class="col-sm border border-secondery-subtle p-4">
+    <!-- Contact section -->
+    <div class="my-5 row grid gap-5 mt-5">
+        <div class="box col-sm border rounded-4 border-secondery-subtle p-3">
             <div class="">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="20"
                         height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -25,14 +39,14 @@
                         <path d="M3 7l9 6l9 -6" />
                     </svg>
             </div>
-            <h4>Email</h4>
-            <p>support@gulaly.com</p>
+            <h6 class="fw-bold mt-4 mb-0">Email</h6>
+            <p class="text-decoration-underline">support@gulaly.com</p>
             <div>
-                <button class="btn btn-dark">CONTACT</button>
+                <button class="btn btn-dark text-uppercase fw-semibold rounded-pill"><span class="px-2" style="font-size: small;">Contact</span></button>
                 <span>*extra information(optional)</span>
             </div>
         </div>
-        <div class="col-sm border border-secondery-subtle p-4">
+        <div class="box col-sm border rounded-4 border-secondery-subtle p-3">
             <div class="">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="20"
                     height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -42,14 +56,14 @@
                         d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                 </svg>
             </div>
-            <h4>Phone</h4>
-            <p>Office +987626750</p>
-            <div class="box-btn">
-                <button>CALL</button>
+            <p class="fw-bold mt-4 mb-0">Phone</p>
+            <p class="text-decoration-underline">Office +987626750</p>
+            <div>
+                <button class="btn btn-dark text-uppercase fw-semibold rounded-pill"><span class="px-2" style="font-size: small;">Call</span></button>
                 <span>*extra information(optional)</span>
             </div>
         </div>
-        <div class="col-sm border border-secondery-subtle p-4">
+        <div class="box col-sm border rounded-4 border-secondery-subtle p-3">
             <div class="">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="20"
                     height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -59,10 +73,10 @@
                     <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
                 </svg>
             </div>
-            <h4>Office</h4>
-            <p>194/D Tejkunipara</p>
-            <div class="box-btn">
-                <button>Contact</button>
+            <p class="fw-bold mt-4 mb-0">Phone</p>
+            <p class="text-decoration-underline">194/D Tejkunipara, Dhaka-1205</p>
+            <div>
+                <button class="btn btn-dark text-uppercase fw-semibold rounded-pill"><span class="px-2" style="font-size: small;">Location</span></button>
                 <span>*extra information(optional)</span>
             </div>
         </div>
